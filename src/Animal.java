@@ -5,6 +5,10 @@ public class Animal {
         energy = e;
     }
 
+    public Animal() {
+        energy = 5;
+    }
+
     public int getEnergy() {
         return energy;
     }
